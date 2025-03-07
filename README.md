@@ -1,15 +1,17 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Project Overview
 
-Currently, two official plugins are available:
+This project is a React.js-based e-commerce product gallery that allows users to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Search for products with debounced API requests to optimize performance. 
 
-## Expanding the ESLint configuration
+✅ Infinite scrolling to load more products dynamically.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Lazy load product images for better performance.
 
+✅ Dark/Light theme toggle using Context API & localStorage.
+
+✅ Error handling with user-friendly messages when API calls fail.
 
 [Click here for live project](https://product-gallery-eight.vercel.app/)
